@@ -1,7 +1,7 @@
-def afib(n):
+def afibb(n):
     a, b = 0,1
     while a < n:
         print(a, end=' ')
         a, b = b, a+b
     print()
-afib(1000)
+afibb(1000)
